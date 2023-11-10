@@ -1,9 +1,15 @@
 .Weather {
+  max-width: 600px;
+  margin-top: 30px;
+  margin-left: 250px;
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
 }
-
+.container small {
+  margin-top: 20px;
+  margin-left: 250px;
+}
 .Weather .overview {
   margin-bottom: 20px;
 }
@@ -65,4 +71,10 @@
   height: auto;
   line-height: 15px;
   white-space: nowrap;
+}
+.overview ul {
+  padding-left: 0px;
+}
+li {
+  list-style: none;
 }
