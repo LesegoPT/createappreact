@@ -32,6 +32,9 @@
   top: -34px;
 }
 
+.Weather .weather-temperature .units a {
+  text-decoration: none;
+}
 .Weather .weather-temperature .active {
   color: rgb(33, 33, 33);
   cursor: default;
