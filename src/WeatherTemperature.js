@@ -34,7 +34,7 @@ export default function WeatherTemperature(props) {
           </span>
         </strong>
         <span className="units">
-          <a href="" onClick={showCelsius}>
+          <a href="/" onClick={showCelsius}>
             °C{" "}
           </a>
           | °F
