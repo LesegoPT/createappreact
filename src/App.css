@@ -19,20 +19,21 @@
   height: 64px;
 }
 
-.Weather .weather-temperature strong {
+.WeatherTemperature strong {
   color: rgb(33, 33, 33);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
+  padding: 0 auto;
 }
 
-.Weather .weather-temperature .units {
+ .units {
   position: relative;
   font-size: 16px;
   top: -34px;
 }
 
-.Weather .weather-temperature .units a {
+ .units a {
   text-decoration: none;
 }
 .Weather .weather-temperature .active {
