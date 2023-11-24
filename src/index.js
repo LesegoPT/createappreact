@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import App from "./App";
 
 ReactDom.render(
-  <div>
+  <div className="overview">
     {" "}
     <App defaultCity="New York" />
   </div>,
